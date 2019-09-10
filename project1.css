@@ -1,0 +1,122 @@
+*{
+	text-align:center; 
+}
+.test{
+margin-right:250px;
+background-color: #17a2b8;	
+	
+
+}
+
+
+.me{
+	padding-bottom: 200px;
+}
+.os{
+	background:#cccccc;
+	color: #17a2b8;
+	margin-bottom:10px;
+	padding:10px;
+	width: 300px;
+	text-align: center;
+}
+
+
+
+
+#wClose{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+.item
+{
+	background-color:orange;
+	position:relative;
+}
+
+
+.lightbox-container
+{
+	position:fixed;
+	top :0;
+	bottom:0;
+	left: 0;
+	right: 0;
+	background-color:rgba(0,0,0,0.7);
+	display: none;
+	z-index: 1000;
+
+	}
+.lightbox-item{
+	width: 50%;
+	height: 500px;
+	background-color: white;
+	background-size: 100% 100%;
+
+	
+}
+.#wClose{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+h1
+{
+color:#17a2b8;
+text-align: center;
+position: relative;	
+}
+
+h1:after{
+	content: "";
+	width: 40%;
+	height: 2px;
+	background-color: grey;
+	top: 50%;
+	right: 0px;
+	position: absolute;
+}
+
+h1:before{
+	content: "";
+	width: 40%;
+	height: 2px;
+	background-color: grey;
+	top: 50%;
+	left: 0px;
+	position: absolute;
+}
+
+ .item{
+	margin-bottom:50px;
+	background-color: green;
+}
+.member{
+color:Blake; 	
+}
+
+
+h2
+{
+	color:#17a2b8;
+}
+
+
+.show{
+	display: flex;
+}
+.sec{
+	margin-top:10rem;
+
+}
+
+
+
+
+
+
+
+
