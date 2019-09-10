@@ -280,8 +280,152 @@ body
 /***********************end loading*************************/
 
 
+/****start pain**/
+.know{
+    margin-top: 15rem; !important
+}
+.know i{
+    color:#26a2c7;
+}
+.know h2{
+    background-color:#f4f4f4;
+     border-radius:40%;
+     border:1px solid #09c;
+    margin:30px ;
+}
+.know .steps{
+    border:1px solid #09c;
+    border-radius: 40%;
+}
+.know .steps:hover,.know h2:hover{
+    background-color:skyblue
+}
+.form-con{
+     border:1px solid #09c;
+    border-radius: 40%;
+}
+.form-con .family img{
+  
+    border-radius: 40%;
+    
+}
+.btns button{
+     border:1px solid #09c;
+     background-color:skyblue
+}
+.man,.woman,.child,#sym,.symK,.showL{
+    display:none;
+    
+}
 
+.man .woman .child{
+   display: none;
+    
+}
+/*
+.selectorM,.selectorwo,.selectorch{
+    display: none;
+}
+*/
+.shad{
+    background-color: rgba(0,0,0,0.5)
+}
+.sel1,.sel2,.sel3,.sel4,.sel5,.sel6,.sel7,.sel8{
+   
+   background-image: url(../images/v.PNG);
+    background-size: 100% 100%;
+    position: fixed;
+    top:100%;
+    right:100%;
+}
+.sel1wo,.sel2wo,.sel3wo,.sel4wo,.sel5wo,.sel6wo,.sel7wo,.sel8wo{
+     background-image: url(../images/vv.PNG);
+    background-size: 100% 100%;
+    position: fixed;
+    top:100%;
+    right:100%;
+}
 
+.sel1ch,.sel2ch,.sel3ch,.sel4ch,.sel5ch,.sel6ch
+{ background-image: url(../images/vvv.PNG);
+    background-size: 100% 100%;
+    position: fixed;
+    top:100%;
+   
+    
+    right:100%;
+}
+
+/***start medicin**/
+.medicin{
+    background-image: url(../images/m.PNG);
+    background-size:100% 100%;
+    
+}
+.shad{
+    background-color: rgba(38, 175, 199,0.2);
+    padding-top: 15rem;
+}
+.medicin button{
+     color:#fff;
+    background-color: #26a2c7;
+}
+.medicin h4{
+    color:#fff;
+     background-color: #26a2c7;
+    border:1px solid #09c;
+    border-radius: 10px;
+    width:80%;
+}
+
+.medicin .warn{
+    background-color: #fff;
+    border:1px solid #09c;
+    border-radius: 20px;
+    width:80%;
+}
+
+.medicin ul .catList,.medicin label{
+     font-size: 20px;
+    color:#fff;
+     background-color: #26a2c7;
+    border:1px solid #09c;
+    border-radius: 10px;
+    padding:5px 10px;
+    
+}
+
+.medicin ul li{
+    position: relative;
+    margin:10px 0;
+    padding: 5px 10px;
+    border:1px solid #09c;
+    border-radius: 10px; 
+}
+.medicin a{
+    border:1px solid #09c;
+    border-radius: 30px; 
+}
+.medicin a:hover{
+    color:#fff;
+    background-color: #26a2c7;
+    
+}
+.medicin  i{
+    color:#26a2c7;
+    padding :2px 5px;
+}
+.medicin .cat{
+     color:#fff;
+     background-color: #26a2c7;
+    border:1px solid #09c;
+    border-radius: 45%;
+    padding:20px 10px;
+  display: none;
+}
+.medicin .cat:hover{
+    cursor: pointer;
+}
 
 
 

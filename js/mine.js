@@ -89,3 +89,300 @@ var TxtType = function(el, toRotate, period) {
     $("body").css("overflow","auto");
     $(".loading .spinner").fadeOut(2000);
 });*/
+
+/*****medicin***/
+
+$(window).scroll(function(){
+    
+    $(".cat").slideDown(2000)
+})
+/***pain***/
+var sel
+
+
+$(".showR").click(function (event) {
+    event.preventDefault();
+    var gend = document.getElementsByName("gen");
+
+
+    for (let i = 0; i < gend.length; i++) {
+        if (gend[i].checked) {
+            sel = gend[i].value;
+            $(".toType").slideUp(1000);
+            $(".showR").fadeOut(1000);
+
+            break;
+        }
+    }
+
+
+    if (sel == "option1") {
+        $(".man").slideDown(1000);
+        $(".symK").click(function (event) {
+            event.preventDefault();
+            var selectedPart = $(".manSel").find(":selected").val();
+            console.log(selectedPart)
+            if (selectedPart == 1) {
+                $(".man").slideUp(2000);
+                $(".sel1").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+                 $(".showL").fadeIn(1000);
+            } else if (selectedPart == 2) {
+
+                $(".man").slideUp(2000);
+                $(".sel2").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 3) {
+
+                $(".man").slideUp(2000);
+                $(".sel3").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 4) {
+
+                $(".man").slideUp(2000);
+                $(".sel4").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 5) {
+
+                $(".man").slideUp(2000);
+                $(".sel5").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 6) {
+
+                $(".man").slideUp(2000);
+                $(".sel6").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 7) {
+
+                $(".man").slideUp(2000);
+                $(".sel7").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 8) {
+
+                $(".man").slideUp(2000);
+                $(".sel8").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            }
+
+
+            $(".symK").fadeOut(1000)
+
+
+
+        })
+
+    } else if (sel == "option2") {
+        console.log("wes")
+
+        $(".woman").slideDown(2000);
+        $(".symK").click(function (event) {
+            event.preventDefault();
+            var selectedPart = $(".woSel").find(":selected").val();
+            console.log(selectedPart)
+            if (selectedPart == 1) {
+                $(".woman").slideUp(2000);
+                $(".sel1wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+                 $(".showL").fadeIn(1000);
+            } else if (selectedPart == 2) {
+                console.log("dfgvg")
+                $(".woman").slideUp(2000);
+                $(".sel2wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 3) {
+
+                $(".woman").slideUp(2000);
+                $(".sel3wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 4) {
+
+                $(".woman").slideUp(2000);
+                $(".sel4wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 5) {
+
+                $(".woman").slideUp(2000);
+                $(".sel5wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 6) {
+
+                $(".woman").slideUp(2000);
+                $(".sel6wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 7) {
+
+                $(".woman").slideUp(2000);
+                $(".sel7wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 8) {
+
+                $(".woman").slideUp(2000);
+                $(".sel8wo").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            }
+
+
+            $(".symK").fadeOut(1000)
+
+
+
+        })
+
+    } else {
+        $(".child").slideDown(2000);
+        $(".symK").click(function (event) {
+            event.preventDefault();
+            var selectedPart = $(".childSel").find(":selected").val();
+            console.log(selectedPart)
+            if (selectedPart == 1) {
+                $(".child").slideUp(2000);
+                $(".sel1ch").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+                
+                $(".showL").fadeIn(1000);
+            } else if (selectedPart == 2) {
+
+                $(".child").slideUp(2000);
+                $(".sel2ch").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 3) {
+
+                $(".child").slideUp(2000);
+                $(".sel3ch").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 4) {
+
+                $(".child").slideUp(2000);
+                $(".sel4ch").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 5) {
+
+                $(".child").slideUp(2000);
+                $(".sel5ch").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } else if (selectedPart == 6) {
+
+                $(".child").slideUp(2000);
+                $(".sel6ch").animate({
+                    top: 0,
+                    bottom: 0,
+                    left: 0,
+                    right: 0
+                }, 1000);
+ $(".showL").fadeIn(1000);
+            } 
+
+            
+
+            $(".symK").fadeOut(1000)
+
+
+
+        })
+    }
+
+
+    $(".symK").slideDown(2000);
+});
