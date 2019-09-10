@@ -39,6 +39,7 @@ body
     background-image: url(../images/cover.jpg);
     height: 600px;
     background-size: cover;
+    margin-top: 3rem;
 }
 
 .cover h2
