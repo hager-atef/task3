@@ -1,0 +1,95 @@
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+body
+{
+     direction: rtl;    
+}
+
+
+/********************************start header****************************/
+
+.head
+{
+    background-color:#dbecf8
+}
+
+.head img
+{
+    height: 70px;
+}
+
+.head i
+{
+    color: #17a2b8;
+    font-size: 40px;
+    margin-left: 10px !important;
+}
+
+@media(max-width:760px)
+{
+    .logo a
+    {
+        font-size: 25px;
+    }
+}
+/*********************************end header*****************************/
+
+
+
+
+/** new-doctor **/
+.logIN 
+{
+    margin-top: 7.9rem;
+    background-color: #f2f2f2;
+    padding: 1.3rem 0.8rem;
+}
+.logIN h2 
+{
+    color: #0477bf;
+}
+.logIN form
+{
+    border: 1px solid #024873;
+    padding: 1.5rem;
+    position: relative;
+}
+#logInForm ,#logInHeading,.logIn img
+{
+}
+.logIN form label,.new-doctor form legend
+{
+    color: #0477bf;
+}
+.btn
+{
+    background-color: #049dbf;
+    color: #fff;
+}
+
+/** new-doctor **/
+
+
+
+
+
+/*************************start footer*************************/
+
+.icon i
+{
+  color: #17a2b8;  
+}
+
+.icon i:hover
+{
+    font-size: 40px;
+    transition-duration: 1s;
+}
+
+/*************************end footer*************************/

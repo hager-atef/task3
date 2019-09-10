@@ -1,0 +1,138 @@
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+body
+{
+     direction: rtl;
+    
+}
+
+
+/********************************start header****************************/
+
+.head
+{
+    background-color:#dbecf8
+}
+
+.head img
+{
+    height: 70px;
+}
+
+.head i
+{
+    color: #17a2b8;
+    font-size: 40px;
+    margin-left: 10px !important;
+}
+
+@media(max-width:760px)
+{
+    .logo a
+    {
+        font-size: 25px;
+    }
+}
+/*********************************end header*****************************/
+
+
+
+/** register new user **/
+.new-user
+{
+    margin-top: 7.9rem;
+    background-color: #f2f2f2;
+    padding: 2rem 0.8rem;
+}
+.new-user h2 
+{
+    color: #0477bf;
+}
+#register-form ,#sign-up-heading ,#logo
+{
+    display: none;
+}
+.new-user form
+{
+    border: 1px solid #024873;
+    padding: 1.5rem;
+}
+/*.new-user form:after
+{
+    content: "تسجيل مستخدم جديد" ;
+    top:-7%;
+    right: 45%;
+    padding: 0.8rem;
+    color: #0477bf;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    
+}*/
+.new-user form label,.new-user form legend
+{
+    color: #0477bf;
+}
+.btn
+{
+    background-color: #049dbf;
+    color: #fff;
+}
+/* /register new user **/
+
+
+/** new-doctor **/
+.new-doctor
+{
+    background-color: #f2f2f2;
+    padding: 1.3rem 0.8rem;
+}
+.new-doctor h2 
+{
+    color: #0477bf;
+}
+.new-doctor form
+{
+    border: 1px solid #024873;
+    padding: 1.5rem;
+    position: relative;
+}
+#doctor-form ,#new-doctor-heading 
+{
+    display: none;
+}
+.new-doctor form label,.new-doctor form legend
+{
+    color: #0477bf;
+}
+.btn
+{
+    background-color: #049dbf;
+    color: #fff;
+}
+
+/** new-doctor **/
+
+
+
+
+/*************************start footer*************************/
+
+.icon i
+{
+  color: #17a2b8;  
+}
+
+.icon i:hover
+{
+    font-size: 40px;
+    transition-duration: 1s;
+}
+
+/*************************end footer*************************/

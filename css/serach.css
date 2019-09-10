@@ -1,0 +1,115 @@
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+body
+{
+     direction: rtl;
+    
+}
+/********************************start header****************************/
+
+.head
+{
+    background-color:#dbecf8
+}
+
+.head img
+{
+    height: 70px;
+}
+
+.head i
+{
+    color: #17a2b8;
+    font-size: 40px;
+    margin-left: 10px !important;
+}
+
+@media(max-width:760px)
+{
+    .logo a
+    {
+        font-size: 25px;
+    }
+}
+/*********************************end header*****************************/
+
+
+
+/** search section **/
+.search
+{
+    margin-top: 10rem;
+    border-bottom: 1px solid #eeeeee;
+}
+.search h2 ,.search h3
+{
+    color: #0477bf;
+}
+.search form
+{
+    width: 70%;
+    margin: auto;
+}
+.search select
+{
+    width: 40%;
+    margin: auto;
+}
+.search .btn
+{
+    background-color: #049dbf;
+    color: #fff;
+}
+.search li a
+{
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+form
+{
+    border: 1px solid #024873;
+    padding: 0.8rem;
+}
+.search .list-group-item a
+{
+    color: #6c6c6c;
+}
+.member-data a
+{
+    color: #049dbf;
+}
+.member-caption
+{
+    color: #d2d2d2;
+}
+/** end search section **/
+
+
+
+
+
+
+
+
+
+/*************************start footer*************************/
+
+.icon i
+{
+  color: #17a2b8;  
+}
+
+.icon i:hover
+{
+    font-size: 40px;
+    transition-duration: 1s;
+}
+
+/*************************end footer*************************/

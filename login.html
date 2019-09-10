@@ -1,16 +1,12 @@
-<html lang="ar" dir="rtl">
-
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome.min.css">
-    <link rel="stylesheet" href="css/index_style.css">
-</head>
-
-<body>
+<html>
+    <head>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/login.css" rel="stylesheet">
+        <meta charset="utf-8">
     
-<!-----------------------------start header--------------------------------->
+    </head>
+    <body >
+       <!-----------------------------start header--------------------------------->
         
       <header class="fixed-top">
             
@@ -84,101 +80,46 @@
         
 <!-----------------------------start header--------------------------------->
         
-
-
-    <section class="medicin ">
-        <div class="shad">
+       
+        
+        <!--log in-->
+        <section class="logIN  text-right ">
             <div class="container">
-                <div class="form-group text-right">
-                    <label for="serach">ادخل اسم الدواء الذي تبحث عنه</label>
-                    <input type="search" class="form-control" id="searchInp">
+                <div class=" d-flex justify-content-center">
+                    <div>
+                        <div class="row  justify-content-center">
+                            <div class="text-center">
+                                <img src="images/images.jpg" id="logo">
+                                <h2 id="logInHeading">تسجيل دخول</h2>
+                            </div>
+                        </div>
+                        <div class="row" id="logInForm">
+                            <div class="col">
+                                <div >
+                                    <form class="my-3">
+                                        <div class="form-row">
+                                            <div class="form-group col-md-6">
+                                                <label for="inputEmail4">البريد الالكتروني </label>
+                                                <input type="email" class="form-control"  placeholder="البريد الالكتروني">
+                                            </div>
+                                            <div class="form-group col-md-6">
+                                                <label for="inputPassword4">كلمة المرور</label>
+                                                <input type="password" class="form-control"  placeholder="كلمة المرور">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn ">دخول</button>
+                                    </form>
+                                </div>
+                            </div>
                 </div>
-                <button class="btn  px-4">بحث</button>
-                <h4 class="text-right p-2">موسوعة الادوية</h4>
-                <p class=" warn text-right p-2">تنبيه: هذه المعلومات الدوائية لا تغني عن زيارة الطبيب أو الصيدلاني. لا ننصح بتناول أي دواء دون استشارة طبية</p>
-                <div class="container py-4">
-                    <div class="twoCat row">
-
-                        <div class="col-md-6 ">
-
-
-                            <ul class="list-unstyled text-right">
-
-                                <li class="catList">الأدويه على حسب الأمراض و الأعراض</li>
-                                <li> <i class="fas fa-arrow-circle-left"></i>إبادة القمل </li>
-                                <li><i class="fas fa-arrow-circle-left"></i>الزهري الخلقي</li>
-                                <li><i class="fas fa-arrow-circle-left"></i>إِكْزِيْما</li>
-                                <li><i class="fas fa-arrow-circle-left"></i>إِعْياء</li>
-
-                            </ul>
-                            <a class="btn" href="#">اقرأ المزيد <i class="fas fa-arrow-circle-left"></i></a>
-
-
-
-                        </div>
-
-                        <div class="col-md-6 px-4">
-
-
-                            <ul class=" list-unstyled text-right">
-
-                                <li class="catList">الأدوية الأكثر مشاهدة</li>
-                                <li><i class="fas fa-arrow-circle-left"></i>أموكسيسيللين</li>
-                                <li><i class="fas fa-arrow-circle-left"></i>دوكسي سيكلين </li>
-                                <li><i class="fas fa-arrow-circle-left"></i>ايبوبروفين </li>
-                                <li><i class="fas fa-arrow-circle-left"></i>تادلافيل </li>
-
-                            </ul>
-
-                            <a class="read btn" href="#">اقرأ المزيد <i class="fas fa-arrow-circle-left"></i></a>
-
-                        </div>
-
                     </div>
-
-
-                    <div class="row m-auto text-center mt-4 py-4">
-                        <div class="col-md">
-
-                            <div class="cat">الادويه حسب الدول </div>
-                        </div>
-                        <div class="col-md">
-
-                            <div class="cat">الأدويه حسب الترتيب الأبجدى</div>
-                        </div>
-                        <div class="col-md">
-
-                            <div class="cat">الأدويه حسب التصنيفات</div>
-
-                        </div>
-                    </div>
-                    <div class="row text-center py-4">
-                        <div class="col-md">
-
-                            <div class="cat"> الأدويه حسب الموضوعات الطبيه </div>
-                        </div>
-                        <div class="col-md">
-                            <div class="cat">الأدويه حسب الأسماء التجاريه</div>
-
-
-                        </div>
-
-                    </div>
-
-                    <div class="row">
-
-                        <a class="btn" href="#">أسئلة واجوبة متعلقة بالادوية <i class="fas fa-arrow-circle-left"></i></a>
-                    </div>
-
                 </div>
-
-
             </div>
-
-        </div>
-    </section>
-            
-<!-------------------------------start footer---------------------------------->
+        </section>
+        <!--/register doctor -->
+        
+        
+        <!-------------------------------start footer---------------------------------->
        
         <footer class="pt-4 pb-4">
             <div class="container">
@@ -197,12 +138,12 @@
         </footer>
 
 <!-------------------------------*end footer---------------------------------->
-
-
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/mine.js"></script>
-</body>
-
+        
+        
+    <!-- java script -->
+        <script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+        <script src="js/login.js"></script>
+    </body>
 </html>
