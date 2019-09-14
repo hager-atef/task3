@@ -496,7 +496,7 @@ shaty-two{
 {
     color: #0477bf;
 }
-.btn
+.new-user .btn
 {
     background-color: #049dbf;
     color: #fff;
@@ -528,7 +528,7 @@ shaty-two{
 {
     color: #0477bf;
 }
-.btn
+.new-doctor .btn
 {
     background-color: #049dbf;
     color: #fff;
@@ -560,6 +560,8 @@ shaty-two{
 {
     width: 70%;
     margin: auto;
+    border: 1px solid #024873;
+    padding: 0.8rem;
 }
 .search select
 {
@@ -577,20 +579,15 @@ shaty-two{
     font-size: 1.3rem;
     font-weight: 400;
 }
-form
-{
-    border: 1px solid #024873;
-    padding: 0.8rem;
-}
 .search .list-group-item a
 {
     color: #6c6c6c;
 }
-.member-data a
+.search .member-data a
 {
     color: #049dbf;
 }
-.member-caption
+.search .member-caption
 {
     color: #d2d2d2;
 }
@@ -634,7 +631,7 @@ form
 {
     color: #0477bf;
 }
-.btn
+.logIN .btn
 {
     background-color: #049dbf;
     color: #fff;
