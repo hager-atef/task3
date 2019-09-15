@@ -1,11 +1,12 @@
-*{
-	text-align:center; 
-}
+
 .test{
-margin-right:250px;
+margin-left:800px;
 background-color: #17a2b8;	
 	
 
+}
+.we{
+margin-left:1000px;
 }
 
 
@@ -102,6 +103,8 @@ color:Blake;
 h2
 {
 	color:#17a2b8;
+padding-left:1000px;
+
 }
 
 
@@ -112,6 +115,7 @@ h2
 	margin-top:10rem;
 
 }
+
 
 
 
