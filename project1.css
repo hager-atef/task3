@@ -7,6 +7,7 @@ background-color: #17a2b8;
 }
 .we{
 margin-left:1000px;
+
 }
 
 
@@ -47,7 +48,7 @@ margin-left:1000px;
 	right: 0;
 	background-color:rgba(0,0,0,0.7);
 	display: none;
-	z-index: 1000;
+	z-index: 10000;
 
 	}
 .lightbox-item{
@@ -91,6 +92,8 @@ h1:before{
 	position: absolute;
 }
 
+
+
  .item{
 	margin-bottom:50px;
 	background-color: green;
@@ -103,7 +106,8 @@ color:Blake;
 h2
 {
 	color:#17a2b8;
-padding-left:1000px;
+text-align: center;
+
 
 }
 
@@ -115,6 +119,13 @@ padding-left:1000px;
 	margin-top:10rem;
 
 }
+
+.text-center{
+text-align: center;
+
+}
+
+
 
 
 
